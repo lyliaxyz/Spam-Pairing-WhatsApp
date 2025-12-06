@@ -1,0 +1,13 @@
+{
+  "name": "spam-pairing-wa",
+  "version": "1.0.0",
+  "description": "Spam pairing code WhatsApp via Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "npm:wileys",
+    "pino": "^8.0.0"
+  }
+}
