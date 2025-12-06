@@ -8,11 +8,11 @@ fi
 
 # Download index.js dari GitHub
 echo "Memproses mengunduh server utama ....."
-curl -s -o index.js https://raw.githubusercontent.com/USERNAME/REPO/main/index.js
+curl -s -o index.js https://raw.githubusercontent.com/lyliaxyz/Spam-Pairing-WhatsApp/main/index.js
 
 # Download package.json
 echo "Mengunduh package.json..."
-curl -s -o package.json https://raw.githubusercontent.com/USERNAME/REPO/main/package.json
+curl -s -o package.json https://raw.githubusercontent.com/lyliaxyz/Spam-Pairing-WhatsApp/main/package.json
 
 # Install dependencies
 if [ ! -d node_modules ]; then
